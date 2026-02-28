@@ -1,25 +1,33 @@
 # Verivis PoI MVP
 
-**Proof of Inference Protocol - Minimal Viable Product**
+**Proof of Inference Protocol – Minimal Viable Product**
 
-A zk-SNARK based protocol for cryptographic attestation of medical AI inferences in nuclear medicine.
+A zk-SNARK based protocol for cryptographic attestation of medical AI inferences in nuclear medicine (Ga-68 PSMA-11 PET/CT).
 
-## Project Status
-- ✅ In-Silico simulation completed (U-Net on synthetic Ga-68 PSMA PET/CT)
-- ✅ Anchor smart contract deployed to Solana Devnet (Milestone 1)
-- ✅ Public GitHub repository
+## Project Status (March 2026)
+- ✅ In-Silico simulation completed (U-Net on synthetic Ga-68 PSMA-11 PET/CT slices)
+- ✅ Anchor smart contract successfully built and ready for deployment
+- ✅ Public GitHub repository live
+- ✅ Live interactive demo available on website
 
-## Core Features
-- Groth16 zk-SNARK proof generation for medical AI execution integrity
-- On-chain anchoring of proof hashes on Solana
-- Designed for clinical workflows (PACS integration ready)
+## Core Technology
+- Groth16 zk-SNARK proof generation for execution integrity
+- On-chain anchoring of proof hashes
+- Designed specifically for clinical workflows and PACS integration
 
-## Quick Start
-```bash
-anchor build
-anchor deploy --provider.cluster devnet
+## Live Demo
+https://verivislab.io
+
+## Repository
+https://github.com/petershih5/verivis-poi-mvp
 
 ## Author
 **Pei-Fan Shih, MD**  
 Founder & Clinical Architect  
 Verivis Lab
+
+---
+
+We are actively seeking a technical co-founder and Rust/ZK developers to help accelerate the next phase (Devnet deployment and SDK release).
+
+If you are interested in building real trust infrastructure for medical AI, please reach out.
